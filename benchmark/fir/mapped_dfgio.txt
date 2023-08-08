@@ -1,0 +1,25 @@
+# format: DFG-IO-Name, ADG-IO-Index, DFG-IO-Latency
+# format: DFG-LOAD/STORE-Name, ADG-LSU-Index, DFG-LOAD/STORE-Latency
+IN_12, 57, 0 ,1
+COF_13, 41, 0 ,1
+IN_14, 25, 0 ,2
+COF_15, 41, 0 ,0
+IN_16, 32, 0 ,1
+COF_17, 41, 0 ,2
+IN_18, 64, 0 ,1
+COF_19, 64, 0 ,3
+IN_20, 80, 0 ,4
+COF_21, 32, 0 ,2
+IN_22, 32, 0 ,3
+COF_23, 80, 0 ,2
+IN_24, 73, 0 ,5
+COF_25, 25, 0 ,4
+IN_26, 73, 0 ,6
+COF_27, 25, 0 ,6
+IN_28, 80, 0 ,6
+COF_29, 73, 0 ,4
+IN_30, 48, 5 ,8
+COF_31, 57, 0 ,8
+IN_32, 57, 0 ,9
+COF_33, 64, 0 ,8
+OUT_1, 48, 5 ,22

@@ -1,0 +1,37 @@
+{
+  "num_row" : 4,
+  "num_colum" : 4,
+  "num_output_ib" : 1,
+  "num_input_ib" : 1,
+  "num_input_ob" : 2,
+  "num_output_ob" : 1,
+  "num_track" : 1,
+  "track_reged_mode" : 1,
+  "num_rf_reg" : 1,
+  "max_delay" : 4,
+  "data_width" : 32,
+  "memory_depth_percycle" : 8,
+  "num_mem_perin" : 1,
+  "num_mem_out" : 1,
+  "max_II" : 8,
+  "operations" : [ "PASS", "ADD", "SUB", "MUL", "AND", "OR", "XOR"],
+  "cfg_data_width" : 32,
+  "cfg_addr_width" : 18,
+  "cfg_blk_offset" : 2,
+  "connect_flexibility" : {
+    "num_perside_otrack_per_opin" : 1,
+    "num_perside_itrack_per_ipin" : 1,
+    "num_perside_ipin_per_opin" : 1
+  },
+  "pin_2_pin_connection": {
+    "connect_2_side1" : true,
+    "connect_2_side2" : true,
+    "connect_2_side3" : true
+  },
+  "pin_2_track_connection": {
+    "connect_2_side1" : true,
+    "connect_2_side2" : true,
+    "connect_2_side3" : true,
+    "connect_2_side4" : true
+  }
+}
