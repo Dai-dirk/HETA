@@ -3,7 +3,7 @@
 
 ## Key Futures
 
-HETA is an open-source temporal CGRA modeling framework, including Chisel-based temporal CGRA modeling, C++ based Mapper and BO-based DSE process.
+HETA is an open-source temporal CGRA modeling framework, including Chisel-based temporal CGRA modeling, C++-based Mapper, and BO-based DSE process.
 
 File catalog:
 
@@ -16,8 +16,8 @@ File catalog:
     benchmark: The 8 test cases used in the paper.
 
     HETA-ARCH: The generated files related to the temporal CGRA modeling.
-      ADG: The ADG files used by HETA mapper, including HETA-HOMO, HETA-PE and HETA.
-      Verilog: The generated Verilog files, including HETA-HOMO, HETA-PE and HETA.
+      ADG: The ADG files used by the HETA mapper, including HETA-HOMO, HETA-PE, and HETA.
+      Verilog: The generated Verilog files, including HETA-HOMO, HETA-PE, and HETA.
 
     N2N-ARCH: The Verilog file of N2N-based CGRA. 
 
@@ -54,7 +54,7 @@ File catalog:
 
 #### Install Optuna
 
-    Please refer to https://github.com/optuna/optuna for Optuna instalation.
+    Please refer to https://github.com/optuna/optuna for Optuna installation.
 
 
 ### Usage
