@@ -92,7 +92,7 @@ File catalog:
 
 ##### Heterogeneous DSE
 
-    Python heteDSE.py
+    python heteDSE.py
 
 ### Example
 
