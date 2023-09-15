@@ -4,4 +4,4 @@
 #include <climits>
 
 // reset mapping intermediate result and status
-//@yuan: full version of code will be release after publication
+//@yuan: Full version of the code will be released after publication
