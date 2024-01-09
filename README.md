@@ -3,7 +3,7 @@
 
 ## Key Futures
 
-HETA is an open-source temporal CGRA modeling framework, including Chisel-based temporal CGRA modeling, C++-based Mapper, and BO-based DSE process.
+HETA is an open-source temporal CGRA modeling framework, including Chisel-based temporal CGRA modeling, C++ based Mapper and BO-based DSE process.
 
 File catalog:
 
@@ -16,8 +16,8 @@ File catalog:
     benchmark: The 8 test cases used in the paper.
 
     HETA-ARCH: The generated files related to the temporal CGRA modeling.
-      ADG: The ADG files used by the HETA mapper, including HETA-HOMO, HETA-PE, and HETA.
-      Verilog: The generated Verilog files, including HETA-HOMO, HETA-PE, and HETA.
+      ADG: The ADG files used by HETA mapper, including HETA-HOMO, HETA-PE and HETA.
+      Verilog: The generated Verilog files, including HETA-HOMO, HETA-PE and HETA.
 
     N2N-ARCH: The Verilog file of N2N-based CGRA. 
 
@@ -54,7 +54,7 @@ File catalog:
 
 #### Install Optuna
 
-    Please refer to https://github.com/optuna/optuna for Optuna installation.
+    Please refer to https://github.com/optuna/optuna for Optuna instalation.
 
 
 ### Usage
@@ -92,7 +92,7 @@ File catalog:
 
 ##### Heterogeneous DSE
 
-    python heteDSE.py
+    Python heteDSE.py
 
 ### Example
 
@@ -100,6 +100,20 @@ File catalog:
 
 ![ ](https://github.com/Dai-dirk/HETA/blob/main/example.png)
 
+### Publication
 
-      
+    @ARTICLE{10374147,
+      author={Dai, Yuan and Li, Jingyuan and Zhu, Qilong and Qiu, Yunhui and Hu, Yihan and Yin, Wenbo and Wang, Lingli},
+      journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+      title={HETA: A Heterogeneous Temporal CGRA Modeling and Design Space Exploration via Bayesian Optimization}, 
+      year={2023},
+      volume={},
+      number={},
+      pages={1-14},
+      doi={10.1109/TVLSI.2023.3344536}}
+
+### Contact
+
+Email: daiy21@m.fudan.edu.cn
+            
 
